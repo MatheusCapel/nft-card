@@ -1,0 +1,116 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;600;700;800;900&display=swap');
+
+
+:root{
+    --colorbackg:#0d192b;
+    --colorcont: #15273f;
+    --coloreth: #0afdfb;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    background-color: #0d192b;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Outfit', sans-serif;
+}
+
+.container{
+    background-color: var(--colorcont);
+    align-items: center;
+    width: 280px;
+    height: 500px;
+    padding: 18px;
+    border-radius: 12px;
+    box-shadow:  23px 23px 47px #00000025,
+             -23px -23px 47px #0000004f;
+    
+}
+
+#photo{
+    width: 280px;
+    height: 280px;
+    border-radius: 12px;
+    box-shadow:  23px 23px 47px #00000025;
+    border-color: #0afdfb;
+}
+
+#tittle{
+    color:white;
+    font-size: 16px;
+    padding: 10px 0px 10px 0px;
+    
+}
+
+#tittle :hover{
+    color: #15273f;
+}
+
+.subtittle{
+    color: #5f7695;
+}
+
+.subsub{
+    display: inline-block;
+    font-size: 0.89em;
+    color: var(--coloreth);
+    padding: 20px 0px 0px 0px;
+}
+
+.relo{
+    display: inline-block;
+    padding-left: 108px;
+    font-size: 0.89em;
+    color: #5f7695;
+}
+
+
+.mid{
+    margin:6px -1px 23px 0px;
+}
+
+.linha{
+    color: #5f769544;
+    margin: -10px 0px 10px 0px;
+    height: px;
+    width: 0 px;
+    }
+
+.logo{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 11px;
+    margin-bottom: 10px;
+}
+
+.name{
+    display: flex;
+    justify-content: left;
+    color: #5f7695;
+    line-height: 2em;
+    padding:0px;
+    font-size: 13px;
+    box-shadow:  23px 23px 47px #00000025;
+}
+
+.kapi {
+    color: white;
+}
+
+.kapi :hover{
+    color: var(--coloreth);
+}
+
+strong{
+    margin: 0px 0px 0px 5px;
+}
